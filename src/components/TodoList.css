@@ -1,0 +1,27 @@
+.list {
+    width: 100%;
+    height: 5px; 
+    display: flex; 
+    align-items: center;
+    color: ghostwhite;
+    background-color: orange;
+}
+
+.list-container {
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.list-priority {
+    margin-bottom: 20px;
+    margin: 10px;
+    padding: 10px;
+    min-width: 320px;                  
+    flex: 1;
+    text-align: center;
+}
